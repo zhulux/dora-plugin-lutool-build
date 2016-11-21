@@ -1,13 +1,13 @@
 {
-  "name": "dora-plugin-webpack",
-  "version": "0.8.1",
-  "description": "dora plugin for webpack",
+  "name": "dora-plugin-lutool-build",
+  "version": "0.1.0",
+  "description": "dora plugin for lutool-build(webpack)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dora-js/dora-plugin-webpack"
+    "url": "https://github.com/zhulux/dora-plugin-lutool-build"
   },
-  "homepage": "https://github.com/dora-js/dora-plugin-webpack",
-  "author": "chencheng <sorrycc@gmail.com>",
+  "homepage": "https://github.com/zhulux/dora-plugin-lutool-build",
+  "author": "borisding <borisding@zhulux.com>",
   "license": "MIT",
   "main": "./lib",
   "scripts": {
@@ -29,7 +29,6 @@
     "lodash.isequal": "^4.1.1"
   },
   "devDependencies": {
-    "atool-build": "0.x",
     "babel-cli": "^6.7.5",
     "babel-core": "^6.7.6",
     "babel-eslint": "^6.1.2",
@@ -42,12 +41,13 @@
     "eslint": "~1.9.0",
     "eslint-config-airbnb": "~1.0.0",
     "expect": "^1.13.4",
+    "lutool-build": "^0.1.2",
     "mocha": "^2.3.4",
     "pre-commit": "~1.1.2",
     "request": "^2.67.0"
   },
   "peerDependencies": {
-    "atool-build": "0.x",
+    "lutool-build": "0.x",
     "dora": "0.4.x"
   },
   "babel": {

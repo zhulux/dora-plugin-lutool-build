@@ -1,6 +1,6 @@
-import mergeCustomConfig from 'atool-build/lib/mergeCustomConfig';
-import getWebpackCommonConfig from 'atool-build/lib/getWebpackCommonConfig';
-import webpack, { ProgressPlugin } from 'atool-build/lib/webpack';
+import mergeCustomConfig from 'lutool-build/lib/mergeCustomConfig';
+import getWebpackCommonConfig from 'lutool-build/lib/getWebpackCommonConfig';
+import webpack, { ProgressPlugin } from 'lutool-build/lib/webpack';
 import { join, resolve } from 'path';
 import chalk from 'chalk';
 import chokidar from 'chokidar';
@@ -11,7 +11,7 @@ import { readFileSync, existsSync } from 'fs';
 let webpackConfig;
 
 export default {
-  name: 'dora-plugin-webpack',
+  name: 'dora-plugin-lutool-build',
 
   'middleware.before'() {
     const { applyPlugins, query } = this;

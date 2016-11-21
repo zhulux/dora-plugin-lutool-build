@@ -1,13 +1,11 @@
-# dora-plugin-webpack
+# dora-plugin-lutool-build
 
 
 dora plugin for webpack.
 
 
-[![NPM version](https://img.shields.io/npm/v/dora-plugin-webpack.svg?style=flat)](https://npmjs.org/package/dora-plugin-webpack)
-[![Build Status](https://img.shields.io/travis/dora-js/dora-plugin-webpack.svg?style=flat)](https://travis-ci.org/dora-js/dora-plugin-webpack)
-[![Coverage Status](https://img.shields.io/coveralls/dora-js/dora-plugin-webpack.svg?style=flat)](https://coveralls.io/r/dora-js/dora-plugin-webpack)
-[![NPM downloads](http://img.shields.io/npm/dm/dora-plugin-webpack.svg?style=flat)](https://npmjs.org/package/dora-plugin-webpack)
+[![NPM version](https://img.shields.io/npm/v/dora-plugin-lutool-build.svg?style=flat)](https://npmjs.org/package/dora-plugin-lutool-build)
+[![NPM downloads](http://img.shields.io/npm/dm/dora-plugin-lutool-build.svg?style=flat)](https://npmjs.org/package/dora-plugin-lutool-build)
 
 
 ----
@@ -15,19 +13,19 @@ dora plugin for webpack.
 ## Usage
 
 ```bash
-$ dora --plugins webpack
+$ dora --plugins lutool-build
 ```
 
 with options:
 
 ```bash
-$ dora --plugins webpack?publicPath=/${npm_pkg_name}&verbose
+$ dora --plugins lutool-build?publicPath=/${npm_pkg_name}&verbose
 ```
 
 with options in Object:
 
 ```bash
-$ dora --plugins webpack?{"watchOptions":{"poll":true}}
+$ dora --plugins lutool-build?{"watchOptions":{"poll":true}}
 ```
 
 ### Options
@@ -44,5 +42,5 @@ And other webpack options, like `watchOptions`, `headers`, `stats`, ...
 
 ## Plugins
 
-- `atool-build.updateWebpackConfig` -- update webpack config for development
+- `lutool-build.updateWebpackConfig` -- update webpack config for development
 
